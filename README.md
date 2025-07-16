@@ -10,7 +10,7 @@ Get ready for the gaming experience of a lifetime with GTA VI(Early Access)! Div
 
 ## 🚀 Features
 
-- **Vast Open World:** Explore a sprawling cityscape filled with opportunities and challenges.
+- **Vast Open World:** Explore a sprawling cityscape & NPC's filled with opportunities and challenges.
 - **Compelling Storyline:** Immerse yourself in a narrative that keeps you on the edge of your seat.
 - **Dynamic Gameplay:** Experience Python-powered mechanics that bring the streets to life.
 - **Stunning Graphics:** Ursina library delivers breathtaking visuals for an unparalleled gaming experience.
