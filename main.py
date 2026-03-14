@@ -1,7 +1,7 @@
 from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
 
-app = Ursina(icon="./assets/gta-vi-logo.ico", title="GTV VI")
+app = Ursina(icon="./assets/gta-vi-logo.ico", title="GTA VI")
 window.size = (1280, 720)
 window.fullscreen = True
 window.borderless = False
@@ -37,8 +37,8 @@ def start_game():
     sky.color = color.rgb(131, 225, 227)
 
     try:
-        map = Entity(
-            model="/assets/map.obj",
+        game_map = Entity(
+            model="./assets/map.obj",
             collider="box",
             ignore=True,
             position=(0, 0, 0),
@@ -62,12 +62,12 @@ def start_game():
     crosshair = Entity(
         model="quad", scale=0.005, color=color.white, rotation_z=45, parent=camera.ui
     )
-    lamborghini_model = load_model("/models/lamborgini/lamborghini.obj")
+    lamborghini_model = load_model("./models/lamborgini/lamborghini.obj")
 
     lamborghini = Entity(
         model=lamborghini_model,
         collider="mesh",
-        texture="/models/lamborgini/lamborghini.jpeg",
+        texture="./models/lamborgini/lamborghini.jpeg",
         scale=0.08,
     )
 
